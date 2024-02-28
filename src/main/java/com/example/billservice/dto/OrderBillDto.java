@@ -1,4 +1,4 @@
-package com.example.billservice.Dto;
+package com.example.billservice.dto;
 
 import lombok.Data;
 

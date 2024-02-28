@@ -1,6 +1,6 @@
 package com.example.billservice.service;
 
-import com.example.billservice.Dto.OrderBillDto;
+import com.example.billservice.dto.OrderBillDto;
 import org.springframework.stereotype.Service;
 
 @Service

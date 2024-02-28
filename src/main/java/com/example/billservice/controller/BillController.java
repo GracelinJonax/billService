@@ -1,6 +1,6 @@
 package com.example.billservice.controller;
 
-import com.example.billservice.Dto.OrderBillDto;
+import com.example.billservice.dto.OrderBillDto;
 import com.example.billservice.api.BillApi;
 import com.example.billservice.service.BillService;
 import org.springframework.web.bind.annotation.RestController;
@@ -14,7 +14,7 @@ public class BillController implements BillApi {
     }
 
     @Override
-    public void saveBill(OrderBillDto orderBillDto){
-             billService.saveBillService(orderBillDto);
+    public void saveBill(OrderBillDto orderBillDto) {
+        billService.saveBillService(orderBillDto);
     }
 }

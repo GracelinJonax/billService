@@ -1,4 +1,4 @@
-package com.example.billservice.repository.Service;
+package com.example.billservice.repository.service;
 
 import org.springframework.stereotype.Service;
 

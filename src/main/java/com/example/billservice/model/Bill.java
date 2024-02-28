@@ -12,8 +12,6 @@ import java.util.List;
 public class Bill {
     List<OrderedProduct> products;
     @Id
-//    @GeneratedValue(generator = "system-uuid")
-//    @GenericGenerator(name = "system-uuid", strategy = "uuid")
     @UuidGenerator
     private String id;
     private String orderId;

@@ -1,6 +1,6 @@
-package com.example.billservice.service.Impl;
+package com.example.billservice.service.impl;
 
-import com.example.billservice.Dto.OrderBillDto;
+import com.example.billservice.dto.OrderBillDto;
 import com.example.billservice.model.Bill;
 import com.example.billservice.model.OrderedProduct;
 import com.example.billservice.repository.BillRepository;
@@ -19,7 +19,7 @@ public class BillServiceImpl implements BillService {
     private final ModelMapper modelMapper;
 
     public BillServiceImpl(BillRepository billRepository, OrderedProductRepository orderedProductRepository,
-                            ModelMapper modelMapper) {
+                           ModelMapper modelMapper) {
         this.billRepository = billRepository;
         this.orderedProductRepository = orderedProductRepository;
         this.modelMapper = modelMapper;
@@ -36,7 +36,6 @@ public class BillServiceImpl implements BillService {
         bill.setProducts(productList);
         bill.setTotalPrice(orderBillDto.getTotalPrice());
         billRepository.save(bill);
-//        System.out.println(bill.getId() + "  id");
     }
 
 }

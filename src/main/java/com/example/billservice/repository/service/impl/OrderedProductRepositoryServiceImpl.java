@@ -1,7 +1,7 @@
-package com.example.billservice.repository.Service.Impl;
+package com.example.billservice.repository.service.impl;
 
 import com.example.billservice.repository.OrderedProductRepository;
-import com.example.billservice.repository.Service.OrderedProductRepositoryService;
+import com.example.billservice.repository.service.OrderedProductRepositoryService;
 import org.springframework.stereotype.Service;
 
 @Service
