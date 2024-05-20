@@ -23,3 +23,5 @@ n
 >src/main/java/com/example/billservice/service/BillService.java,2/6/26afe696b0e71ac7a3d5ec7eb630db9a2d9b1064
 q
 Asrc/main/java/com/example/billservice/BillServiceApplication.java,0/e/0e8b489e005ebb1b1dff3c8c92e1fa61e3c43fc9
+R
+"src/main/resources/application.yml,a/6/a6d8b8556fee0e03112ce2bf34b8cb27a7dc9e58
